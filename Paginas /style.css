@@ -10,21 +10,28 @@ header{
     height: 80px;
 }
 
+
+
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #CDC6BD;
+    background-color: #cdc6bd;
     height: 1000px;
 }
 
 .main-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #CDC6BD;
-    height: 1000px;
+    background-color:#cdc6bd;
+    height: 1500px;
 }
+
+.Quienes{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 .menu ul{
     display: flex;
