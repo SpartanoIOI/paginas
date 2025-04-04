@@ -31,6 +31,18 @@ header {
   height: 1500px;
 }
 
+.main-2 img{
+  padding-top: 30px;
+}
+
+.main-2 h1{
+  padding-top: 30px;
+}
+
+.main-2 p{
+  padding-top: 20px;
+}
+
 .Equipos {
   display: flex;
   flex-direction: column;
@@ -47,6 +59,14 @@ header {
 
 .imagenes p {
   color: lightcoral;
+}
+
+.Julius{
+  display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: #cdc6bd;
+  height: 1000px;
 }
 
 .menu ul {
