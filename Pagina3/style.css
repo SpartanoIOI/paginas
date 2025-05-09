@@ -5,36 +5,38 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.foto{
-    display: flex;
-    justify-content: center;
-    width: 150px;
-}
-
-nav ul{
+.lista nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
 }
 
-nav ul li{
+.lista nav ul li{
     text-decoration: none;
     list-style: none;
+    border-bottom: solid white 2px;
+    padding: 20px 0px;
 }
 
+.lista nav ul li:hover{
+    background-color: black;
+}
 
 .left{
     width: 20%;
     height: 100vh;
     background-color: brown;
+    padding-top: 150px;
 }
 
 .texto{
     display: flex;
     justify-content: center;
     color: white;
+    
 }
+
 
 .right{
     width: 80%;
