@@ -32,20 +32,6 @@ body{
     background-color: black;
 }
 
-.socials nav ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-}
-
-.socials nav ul li{
-    list-style: none;
-    color: white;
-}
-
-
-
 .left{
     width: 20%;
     height: 100vh;
@@ -64,4 +50,16 @@ body{
 .right{
     width: 80%;
     height: 100vh;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.socials img{
+    width: 70px;
+    height: auto;
+
 }
