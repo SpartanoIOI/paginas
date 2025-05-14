@@ -11,6 +11,16 @@ body{
     justify-content: center;
 }
 
+.profile p{
+    display: flex;
+    justify-content: center;
+}
+
+.profile h1{
+    display: flex;
+    align-items: center;
+}
+
 .socials{
     display: flex;
     flex-direction: row;
