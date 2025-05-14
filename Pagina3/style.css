@@ -71,14 +71,15 @@ body{
     flex-direction: row;
 }
 
-.Template h2{
-    padding-left: 20px;
-    color: white;
+.Template img{
+    padding-top: 30px;
+    padding-left: 150px;
+    width: 500px;
 }
 
-.Template img{
-    padding-left: 150px;
-    width: 750px;
+.Explicacion{
+    display: flex;
+    flex-direction: column;
 }
 
 .socials{
