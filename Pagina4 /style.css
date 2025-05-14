@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #CD5C5C;
+    padding-bottom: 800px;
+    padding-right: 100px;
+    width: 150px;
+}
+
+.lista nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-left: 0px;;
+}
+
+.lista nav ul li{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid white 2px;
+    width: 250px;
+    padding: 20px 0px;
+}
+
+.lista nav ul li:hover{
+    background-color: #28282B;
+}
