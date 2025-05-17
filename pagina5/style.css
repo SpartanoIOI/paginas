@@ -1,13 +1,57 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #F4C17B;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4c17b;
+}
+
+main {
+  background-image: url(https://as2.ftcdn.net/jpg/https://as1.ftcdn.net/jpg/01/76/40/98/1000_F_176409883_6df9jx1tHXtREuhz6nWEvPxeXbIoSFXO.jpg/18/68/93/1000_F_518689361_HH1ahMMDpvay9xy4pL0l83xi3gYEU2Ix.jpg);
+  padding-bottom: 500px;
+}
+
+h2{
+    padding-top: 200px;
+    padding-left: 200px;
+    width: 200px;
+}
+
+p{
+    padding-top: 100x;
+    padding-left: 195px;
+    width: 500px;
+}
+
+button{
+  background-color: #F4C17B:
+  color: #000000;
+  border:none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition-duration: 0, 3s;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.menu li {
+  display: flex;
+  flex-direction: row;
 }
