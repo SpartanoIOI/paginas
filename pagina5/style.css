@@ -23,6 +23,11 @@ h2{
     width: 200px;
 }
 
+.titulo{
+  display: flex;
+  
+}
+
 p{
     padding-top: 100x;
     padding-left: 195px;
@@ -30,7 +35,7 @@ p{
 }
 
 button{
-  background-color: #F4C17B:
+  background-color: #F4C17B;
   color: #000000;
   border:none;
   padding: 10px 20px;
@@ -38,6 +43,11 @@ button{
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition-duration: 0, 3s;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
